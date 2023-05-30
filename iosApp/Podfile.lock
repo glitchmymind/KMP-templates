@@ -1,0 +1,16 @@
+PODS:
+  - dep_ios (0.0.1)
+
+DEPENDENCIES:
+  - dep_ios (from `../common/dep-ios`)
+
+EXTERNAL SOURCES:
+  dep_ios:
+    :path: "../common/dep-ios"
+
+SPEC CHECKSUMS:
+  dep_ios: 2a1f1b3998b76a2c5a516915d401a77fbca4b810
+
+PODFILE CHECKSUM: b282f8cfc97aaf5d21a0611bc6403642c1338854
+
+COCOAPODS: 1.11.3
