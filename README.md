@@ -7,6 +7,9 @@
 4. brew install kdoctor (for environment checking)
 5. arch x86-64 pod install (for M1)
 
+### Sign commit
+documentation: [SignCommit.md](doc%2FSignCommit.md)
+
 #### Check lib versions if don't work 
     - for kotlin and compose https://developer.android.com/jetpack/androidx/releases/compose-kotlin
     - for other lib see github 
