@@ -16,7 +16,6 @@ object PlatformSDK {
                 bind<PlatformConfig>() with singleton { configuration }
             }
         )
-        val map  = HashSet<Char>()
 
         Inject.createDependencies(
             DI {
