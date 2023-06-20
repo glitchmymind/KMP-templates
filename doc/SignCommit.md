@@ -1,10 +1,12 @@
 
 ### Sign commit
 1. install GPG
-2. ```
+2. enable gpgsign feture
+   
+   ```
    git config commit.gpgsign true
    ```
-3.  
+3. generate sign key for computer
    ```
    gpg --full-generate-key
    ```
@@ -13,10 +15,12 @@
    - 1 year (recommended)
    - name
    - email as in GitHub
-4. ```
+4. output all generated key in the computer
+   ```
    gpg --list-secret-keys --keyid-format LONG
    ```
-5. ```
+5. export key
+   ```
    gpg --armor --export 3AA5C34371567BD2
    ```
    ![img.png](img.png)
@@ -33,4 +37,6 @@
    ```
 
 ### !!!!Attention: 
-If didn't work -> run in terminal: gpgconf --kill gpg-agent
+If don't work:
+- run in terminal: ```gpgconf --kill gpg-agent```
+- use manual commit: ```git commit -S -m your commit message```. Cause need enter passphrase, maybe
