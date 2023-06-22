@@ -38,5 +38,6 @@
 
 ### !!!!Attention: 
 If don't work:
+- run GPG client and wait a few time
 - run in terminal: ```gpgconf --kill gpg-agent```
 - use manual commit: ```git commit -S -m your commit message```. Cause need enter passphrase, maybe
